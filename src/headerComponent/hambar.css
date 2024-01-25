@@ -1,3 +1,5 @@
+/************햄버거바*****************/
+.hambar,
 input[id="icon"]{
     display: none;
   }
@@ -17,7 +19,6 @@ input[id="icon"] + label span {
     background: white;
     transition: all 0.3s;
 }
-
 input[id="icon"]:checked + label span:nth-child(1) {
     transform:translateY(10px) rotate(45deg);
 }
@@ -28,16 +29,14 @@ input[id="icon"]:checked + label span:nth-child(3) {
     opacity: 0;
 }
 
-
-
-/* �꾨쾭嫄곕컮 �대┃�� �섏삤�� �ㅻ퉬諛� CSS */
+/************햄버거바 클릭시 나오는 네비바*****************/
 .hambar-menu {
     position:fixed;
     right: -250px;
     top: 45px;
     width:250px;
     height: 100%;
-    background:#cd853f;
+    background: burlywood;
     padding:60px 25px 25px 25px;
     box-sizing: border-box;
     transition: all 0.35s;
@@ -45,19 +44,17 @@ input[id="icon"]:checked + label span:nth-child(3) {
 #icon:checked + label + .hambar-menu {
     right:0
 }
-.hambar-menu h2{
-    margin-top: -32px;
-    color: white;
-    font-size: 2.25rem;
-    font-weight: 900;
+.hambar h2{
     text-align: center;
-}
-.hambar-menu a{
-    font-size: 1.45rem;
-    font-weight: 900;
+    font-size: 1.75rem;
     color: white;
-    text-decoration-line: none;
 }
-.hambar-menu a:hover{
-    opacity: 0.5;
+.hambar-menu_li li{
+    margin-top: 10px;
 }
+
+@media screen and (max-width: 743px){
+    .hambar{
+      display: block;
+    }
+  }
