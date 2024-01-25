@@ -1,5 +1,132 @@
-.dog2{
-    width: 100px;
-    height: 100px;
-    border: 5px solid red;
+.dog2-container{
+    position: relative;
+    top: 100px;
+}
+.dog2-headcontent{
+    display: flex;
+    justify-content: space-between;
+}
+.dog2-head{
+    width: 120px;
+    height: 90px;
+    border: 5px solid black;
+    background-color: burlywood;
+    border-radius: 200px 200px 50px 50px;
+    border-bottom: 5px solid burlywood;
+    z-index: 1;
+}
+#dog2-ear1, #dog2-ear2{
+    position: relative;
+    width: 60px;
+    height: 35px;
+    top: 25px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: burlywood;
+    z-index: 0;
+}
+#dog2-ear1{
+    left: 45px;
+    transform: rotate(-40deg);
+}
+#dog2-ear2{
+    right: 45px;
+    transform: rotate(40deg);
+}
+.dog2-face{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30px;
+}
+.dog2-eyes,
+.dog2-nose{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+}
+.dog2-nose{
+    width: 15px;
+    position: relative;
+    top: 15px;
+}
+#dog2-eye1{
+    margin-right: -15px;
+}
+#dog2-eye2{
+    margin-left: -15px;
+}
+.dog2-mouth-content{
+    position: relative;
+    top: 27px;
+    left: 30px;
+}
+#dog2-mouth1{
+     transform: rotate(135deg);
+}
+#dog2-mouth2{
+    position: relative;
+    top: -31px;
+    right: -3px;
+    transform: rotate(-165deg);
+}
+
+.dog2-body{
+    position: relative;
+    top: -55px;
+    left: 70px;
+    width: 120px;
+    height: 105px;
+    border-radius: 25px;
+    border: 5px solid;
+    border-top:5px solid red;
+    background-color: burlywood;
+    z-index: 1;
+}
+
+.dog2-arms-content{
+    position: relative;
+    top: -40px;
+    display: flex;
+    justify-content: space-between;
+}
+.dog2-arms{
+    width: 45px;
+    height: 30px;
+    border: 5px solid;
+    background-color: burlywood;
+    z-index: 2;
+}
+#dog2-arm1{
+    position: relative;
+    top:3px;
+    left: 43px;
+    transform: rotate(45deg);
+    border-radius: 30px 0 0 30px;
+    border-right: burlywood;
+}
+#dog2-arm2{
+    position: relative;
+    top: 50px;
+    right: 80px;
+    border-left: burlywood;
+    border-radius: 0 30px 30px 0;
+    transform: rotate(130deg);
+}
+.dog2-foot{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+#dog2-foot1,
+#dog2-foot2{
+    width: 25px;
+    height: 25px;
+    border: 5px solid;
+    background-color: burlywood;
+    border-top: burlywood;
+    border-radius: 0 0 20px 20px;
 }

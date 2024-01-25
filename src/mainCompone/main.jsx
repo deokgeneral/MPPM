@@ -1,25 +1,16 @@
-import React from 'react'
-import './dog1.css'
-import './dog2.css'
+import React from 'react';
 import './picket.css'
+import Dog1 from './dog1';
+import Dog2 from './dog2';
 
 function Main(){
     return(
         <div className='container'>
-            <div className='dog1-container'>
-                <div className='dog-1-headcontent'>
-                    <div className='dog1-head'></div>
-                    <div className='dog1-ear'></div>
-                    <div className='dog-face'></div>
-                </div>
-                <div className='dog1-body'></div>
-                <div className='dog1-foot'></div>
-                <div className='dog1-tail'></div>
-            </div>
+            <Dog1 />
             <div className='picket-container'>
-                <div className='picket'></div>
+                <div className='picket'>피켓</div>
             </div>
-            <div className='dog2'>강아지2</div>
+            <Dog2 />
         </div>
     );
 }
