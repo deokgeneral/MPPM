@@ -9,8 +9,7 @@
     background-color: burlywood;
 }
 .header-title{
-    font-size: 2.25rem;
-    font-weight: 900;
+    font-weight: 700;
     color: white;
 }
 .header-title a{
@@ -27,9 +26,9 @@
     list-style-type: none;
     text-decoration-line: none;
     color: white;
-    font-size: 1.45rem;
-    font-weight: 900;
-    margin-right: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-right: 15px;
 }
 .header-menu li a:hover{
     opacity: 0.5;

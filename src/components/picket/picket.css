@@ -1,21 +1,46 @@
-
-.picket{
-    height: 200px;
-    border: 3px solid brown;
-}
-.select-content{
+.picket-container{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.select-content h2{
-    width: 500px;
+    justify-content: center;
     text-align: center;
+    margin-top: 50px;
 }
-.selec-box{
-    width: 150px;
-    height: 50px;
+.picket{
+    width: 360px;
+    height: 300px;
     border-radius: 20px;
-    border: 5px solid burlywood;
+    border: 5px solid;
+    background-color: wheat;
+}
+#input{
+    margin: 5px;
+    width: 200px;
+    height: 40px;
     text-align: center;
+    border-radius: 20px;
+    border: 2px solid;
+    font-size: 1.25rem;
+    background-color: white;
+}
+#result{
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: white;
+}
+#result:hover{
+    transform: scale(1.3);
+    transition: all 0.55s;
+}
+.share_btn{
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+}
+.share_btn:hover{
+    opacity: 0.5;
 }
