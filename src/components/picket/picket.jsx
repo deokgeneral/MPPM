@@ -11,7 +11,6 @@ function Picket() {
   };
 
   const handleShowUserResult = () => {
-    // 사용자가 입력한 MBTI에 따라 결과를 설정하는 로직을 추가합니다.
     switch (userInput.toUpperCase()) {
       case 'ISTJ':
         setResult('ISTJ에 대한 사용자 결과');
@@ -19,24 +18,24 @@ function Picket() {
       case 'ISTP':
         setResult('ISTP에 대한 사용자 결과');
         break;
-      // ... 다른 MBTI에 대한 사용자 결과 설정
+      // MBTI 사용자 결과 설정
       default:
         setResult('');
         break;
     }
   };
     const handleTwitterShare = () => {
-    // Twitter 공유 로직 추가
+    // Twitter 공유 로직
         console.log('Twitter 공유');
     };
 
     const handleFacebookShare = () => {
-    // Facebook 공유 로직 추가
+    // Facebook 공유 로직
         console.log('Facebook 공유');
     };
 
     const handleKakaoShare = () => {
-    // Kakao 공유 로직 추가
+    // Kakao 공유 로직
         console.log('Kakao 공유');
     };
   return (
