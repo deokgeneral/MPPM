@@ -1,0 +1,21 @@
+
+.picket{
+    height: 200px;
+    border: 3px solid brown;
+}
+.select-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.select-content h2{
+    width: 500px;
+    text-align: center;
+}
+.selec-box{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 5px solid burlywood;
+    text-align: center;
+}

@@ -3,7 +3,7 @@ import './dog1.css';
 
 function Dog1(){
     return(
-        <div className='container'>
+        <div className='dog-container'>
             <div className='dog1-container'>
                 <div className='dog1-headcontent'>
                         <div className='dog1-ears' id='dog1-ear1'></div>
@@ -15,10 +15,10 @@ function Dog1(){
                         </div>
                         <div class="dog1-mouth-content">
                                 <svg width="100" height="51" xmlns="http://www.w3.org/2000/svg" id='dog1-mouth1'>
-                                <path d="M 50 60 Q 80 0, 80 70" stroke="black" fill="transparent" stroke-width="4"/>
+                                <path d="M 50 60 Q 80 0, 110 80" stroke="black" fill="transparent" stroke-width="4"/>
                                 </svg>
                                 <svg width="100" height="51" xmlns="http://www.w3.org/2000/svg" id='dog1-mouth2'>
-                                <path d="M 50 60 Q 80 0, 80 70" stroke="black" fill="transparent" stroke-width="4"/>
+                                <path d="M 50 60 Q 80 0, 100 70" stroke="black" fill="transparent" stroke-width="4"/>
                                 </svg>
                         </div>
                     </div>

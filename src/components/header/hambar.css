@@ -52,7 +52,7 @@ input[id="icon"]:checked + label span:nth-child(3) {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 743px){
+@media screen and (max-width: 803px){
     .hambar{
       display: block;
     }
