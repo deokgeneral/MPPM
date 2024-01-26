@@ -77,7 +77,7 @@ function Picket() {
             <img src="/assets/icon-kakao.png" alt="Kakao 아이콘" />
             </button>
             </div>
-        </div>
+      </div>
     </div>
   );
 }

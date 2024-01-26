@@ -1,0 +1,15 @@
+.garden-container{
+    display: flex;
+    justify-content: center;
+}
+.garden{
+    width: 100%;
+    margin-top: 50px;
+    height: 67px;
+    background-color: green;
+    border-radius: 100px 100px 0 0;
+}
+.garden div:nth-child(1){
+    border: 1px solid;
+    width: 20px;
+}

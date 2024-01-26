@@ -7,28 +7,34 @@
     width: 360px;
     height: 243px;
     border-radius: 20px;
-    border: 5px solid;
-    background-color: wheat;
+    border: 5px solid rgb(137, 46, 46);
+    color: white;
+    background-color: rgb(176, 78, 78);
 }
 .picket::after{
     position: relative;
-    left: 150px;
+    left: 160px;
     content: '';
     display: block;
-    width: 50px;
-    height: 100px;
-    background-color: brown;
-    z-index: -1px;
+    width: 40px;
+    height: 50px;
+    border: 5px solid rgb(137, 46, 46);
+    border-top: none;
+    background-color: rgb(176, 78, 78);
 }
 #input{
     margin: 5px;
-    width: 200px;
+    width: 165px;
     height: 40px;
     text-align: center;
     border-radius: 20px;
     border: 2px solid;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
+    color: tomato;
     background-color: white;
+}
+.user-input h2{
+    color: white;
 }
 #result{
     margin: 20px;
@@ -39,11 +45,12 @@
     font-size: 1.25rem;
     font-weight: 700;
     text-align: center;
+    color: tomato;
     background-color: white;
 }
 #result:hover{
-    transform: scale(1.3);
-    transition: all 0.55s;
+    transform: scale(1.2);
+    transition: all 0.75s;
 }
 .share_btn{
     margin: 10px;

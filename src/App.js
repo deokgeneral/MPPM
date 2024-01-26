@@ -3,6 +3,8 @@ import Header from './components/header/header';
 import Picket from './components/picket/picket';
 import Spb from './components/spb/spb';
 import Dog from './components/dog/dog';
+import Garden from './components/garden/garden';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Spb />
       <Dog />
       <Picket />
+      <Garden />
     </>
   );
 }
