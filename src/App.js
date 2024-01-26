@@ -1,28 +1,27 @@
 import React from 'react';
-import Header from './headerComponent/header';
-import Main from './mainCompone/main';
+import Header from './components/header/header';
+import Main from './components/main';
 
 function App() {
   const titleStyle = {
-    marginTop :'128px',
+    marginTop :'90px',
     textAlign: 'center',
-    fontSize :'1.75rem',
-    fontWeight : '900'
+    fontFamily: 'KCCMurukmuruk'
   }
   const titleStyle2 ={
+    marginTop : '5px',
     textAlign: 'center',
-    fontSize :'1.15rem',
-    fontWeight : '900'
+    fontFamily: 'KCCMurukmuruk'
   }
   return (
     <>
       <Header />
-      <div style={titleStyle}>
-        자신의 MBTI를 입력하고,
-        </div>
-      <div style={titleStyle2}>
-      함께할 반려강아지를 추천 받으세요.
-      </div>
+      <h1 style={titleStyle}>
+      MBTI를 입력하고, 
+      </h1>
+      <h3 style={titleStyle2}>
+       함께할 반려강아지를 추천 받아라 멍!!
+      </h3>
       <Main/>
     </>
   );

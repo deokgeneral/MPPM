@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import Hambar from './hambarComponent/hambar';
+import Hambar from './hambar';
 import { FaDog } from "react-icons/fa";
 
 function Header() {

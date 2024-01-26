@@ -1,7 +1,7 @@
 import React from 'react';
 import './picket.css'
-import Dog1 from './dog1';
-import Dog2 from './dog2';
+import Dog1 from './dog/dog1';
+import Dog2 from './dog/dog2';
 
 function Main(){
     return(
