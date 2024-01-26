@@ -6,7 +6,7 @@ import { FaDog } from "react-icons/fa";
 function Header() {
     return(
         <div className='header-content'>
-            <h2 className='header-title'><FaDog /> M<a>bti</a>P<a>erpect</a>P<a>uppy</a>M<a>aching</a></h2>
+            <h2 className='header-title'><FaDog />M<a>bti</a>P<a>erpect</a>P<a>uppy</a>M<a>aching</a></h2>
             <div className='header-menu'>
                 <ul className='header-menu_li'>
                     <li><a href='#'>나의 MBTI</a></li>

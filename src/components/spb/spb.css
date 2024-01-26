@@ -6,9 +6,9 @@
     text-align: center;
     width: 180px;
     height: 100px;
-    margin-top: 70px;
+    margin-top: 60px;
     border-radius: 50px;
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(220, 220, 220);
 }
 .spb::after{
@@ -18,5 +18,5 @@
     border-left: 20px solid transparent; 
     border-right: 20px solid transparent;
     border-top: 30px solid rgb(220, 220, 220);
-    z-index: -1;
+    z-index: -2;
 }
