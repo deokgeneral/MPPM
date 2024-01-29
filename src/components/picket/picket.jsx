@@ -11,16 +11,62 @@ function Picket() {
   };
 
   const handleShowUserResult = () => {
+    const formattedInput = userInput.toUpperCase();
     switch (userInput.toUpperCase()) {
-      case 'ISTJ':
+        case 'ISTJ':
         setResult('ISTJ에 대한 사용자 결과');
         break;
-      case 'ISTP':
+        case 'ISTP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'INFJ':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'INTJ':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ISTP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ISFP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ISFP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'INFP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'INTP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ESTP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ESFP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ENFP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ENTP':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ESTJ':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ESFJ':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ENFJ':
+        setResult('ISTP에 대한 사용자 결과');
+        break;
+        case 'ENTJ':
         setResult('ISTP에 대한 사용자 결과');
         break;
       // MBTI 사용자 결과 설정
       default:
-        setResult('');
+        setResult('결과값이없다이노무자슥아!!');
         break;
     }
   };
@@ -79,5 +125,4 @@ function Picket() {
     </div>
   );
 }
-
 export default Picket;
