@@ -25,19 +25,18 @@ function Picket() {
     }
   };
     const handleTwitterShare = () => {
-    // Twitter 공유 로직
+    // 트위터 공유 로직
         console.log('Twitter 공유');
     };
-
     const handleFacebookShare = () => {
-    // Facebook 공유 로직
         console.log('Facebook 공유');
-    };
-
+    }; // 페북 공유로직
     const handleKakaoShare = () => {
-    // Kakao 공유 로직
+    // 카카오톡 공유 로직
         console.log('Kakao 공유');
     };
+
+
   return (
     <div className="picket-container">
       <div className="picket">
