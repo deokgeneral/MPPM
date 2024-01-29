@@ -10,6 +10,7 @@
     border: 5px solid rgb(137, 46, 46);
     color: white;
     background-color: rgb(176, 78, 78);
+    z-index: -3;
 }
 .picket::after{
     position: relative;
