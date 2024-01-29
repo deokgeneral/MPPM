@@ -82,7 +82,6 @@ function Picket() {
         console.log('Kakao 공유');
     };
 
-
   return (
     <div className="picket-container">
       <div className="picket">

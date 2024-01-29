@@ -13,7 +13,7 @@ function Hambar () {
                 </label>
                 <div className='hambar-menu'>
                     <h2>MENU</h2>
-                    <ul className='hambar-menu_li'>
+                    <ul id='hambar-menu_li'>
                     <li><a href='#'>나의 MBTI</a></li>
                     <li><a href='#'>MBTI 궁합</a></li>
                     <li><a href='#'>MBTI 롤링페이퍼</a></li>

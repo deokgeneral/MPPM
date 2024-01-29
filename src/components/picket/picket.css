@@ -10,7 +10,6 @@
     border: 5px solid rgb(137, 46, 46);
     color: white;
     background-color: rgb(176, 78, 78);
-    z-index: -3;
 }
 .picket::after{
     position: relative;
@@ -61,4 +60,12 @@
 }
 .share_btn:hover{
     transform: scale(1.2);
+}
+
+
+.result-container{
+    position: absolute;
+    top: 455px;
+    right: 350px;
+    color: black;
 }

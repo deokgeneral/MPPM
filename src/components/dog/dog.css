@@ -10,7 +10,6 @@
     border-bottom: 6px solid red;
     border-radius: 100px 100px 0px 0px;
     background-color: burlywood;
-    z-index: -1;
 }
 .ear{
     position: relative;
@@ -20,7 +19,7 @@
     border: 5px solid;
     border-radius: 25px;
     background-color: burlywood;
-    z-index: -2;
+    z-index: -1;
 }
 #ear1{
     left: 60px;

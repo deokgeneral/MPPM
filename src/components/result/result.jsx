@@ -7,7 +7,9 @@ function Result () {
         <BrowserRouter>
         <div className="result-container">
         <Header/>
-        <Route></Route>
+        <Route path="/">
+            
+        </Route>
         </div>
         </BrowserRouter>
     );
