@@ -94,7 +94,7 @@ function Picket() {
                 type="text"
                 value={userInput}
                 onChange={handleUserInputChange}
-                placeholder="대문자로 입력하세요."
+                placeholder="MBTI를 입력하세요."
                 id='input'
                 />
             </div>
