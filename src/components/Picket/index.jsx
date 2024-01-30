@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './picket.css';
+import './index.css';
 
 function Picket() {
 

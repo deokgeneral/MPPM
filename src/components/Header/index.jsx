@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.css'
+import './index.css';
 import { MdOutlinePets } from "react-icons/md";
 
 function Header() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './dog.css';
+import './index.css';
 
 function Dog(){
     return(

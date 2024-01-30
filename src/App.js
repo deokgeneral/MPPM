@@ -1,19 +1,17 @@
 import React from 'react';
-import Header from './components/header/header';
-import Picket from './components/picket/picket';
-import Spb from './components/spb/spb';
-import Dog from './components/dog/dog';
-import Garden from './components/garden/garden';
+import Header from './components/Header';
+import Dog from './components/Dog';
+import Balloon from './components/Balloon';
+import Picket from './components/Picket';
 
 
 function App() {
   return (
     <>
       <Header />
-      <Spb />
-      <Dog />
-      <Picket />
-      <Garden />
+      <Balloon/>
+      <Dog/>
+      <Picket/>
     </>
   );
 }

@@ -1,8 +1,8 @@
-.spb-container{
+.Balloon-container{
     display: flex;
     justify-content: center;
 }
-.spb{
+.Balloon{
     text-align: center;
     width: 180px;
     height: 100px;
@@ -11,7 +11,7 @@
     padding: 15px;
     background-color: rgb(220, 220, 220);
 }
-.spb::after{
+.Balloon::after{
     content: '';
     position: relative; 
     top: 50px; 
