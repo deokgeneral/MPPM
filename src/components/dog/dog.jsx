@@ -28,6 +28,12 @@ function Dog(){
                 </div>
             </div>    
             <div className='ear' id='ear2'></div>
+            <div className='foots'>
+                <div className='foot1'>
+                </div>
+                <div className='foot2'>
+                </div>
+            </div>
         </div>
         </>
     );

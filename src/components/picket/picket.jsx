@@ -10,67 +10,8 @@ function Picket() {
     setUserInput(e.target.value);
   };
 
-  const handleShowUserResult = () => {
-    const formattedInput = userInput.toUpperCase();
-    switch (userInput.toUpperCase()) {
-        case 'ISTJ':
-        setResult('ISTJ에 대한 사용자 결과');
-        break;
-        case 'ISTP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'INFJ':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'INTJ':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ISTP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ISFP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ISFP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'INFP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'INTP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ESTP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ESFP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ENFP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ENTP':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ESTJ':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ESFJ':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ENFJ':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-        case 'ENTJ':
-        setResult('ISTP에 대한 사용자 결과');
-        break;
-      // MBTI 사용자 결과 설정
-      default:
-        setResult('결과값이없다이노무자슥아!!');
-        break;
-    }
-  };
-    const handleTwitterShare = () => {
+  //공유하기 
+  const handleTwitterShare = () => {
     // 트위터 공유 로직
         console.log('Twitter 공유');
     };
@@ -82,6 +23,67 @@ function Picket() {
         console.log('Kakao 공유');
     };
 
+
+  const handleShowUserResult = () => {
+    const formattedInput = userInput.toUpperCase();
+    switch (userInput.toUpperCase()) {
+          case 'ISTJ':
+          setResult('ISTJ에 대한 사용자 결과');
+          break;
+          case 'ISTP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'INFJ':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'INTJ':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ISTP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ISFP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ISFP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'INFP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'INTP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ESTP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ESFP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ENFP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ENTP':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ESTJ':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ESFJ':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ENFJ':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+          case 'ENTJ':
+          setResult('ISTP에 대한 사용자 결과');
+          break;
+  
+      default:
+        setResult('결과값이없다이노무자슥아!!');
+        break;
+    }
+  };
   return (
     <div className="picket-container">
       <div className="picket">
@@ -108,7 +110,7 @@ function Picket() {
                 <p>{result}</p>
             </div>
             )}
-            <div className="sharebtn_content">
+                        <div className="sharebtn_content">
             <h3>공유하기</h3>
             <button type="button" onClick={handleTwitterShare} className="share_btn">
             <img src="/assets/icon-twitter.png" alt="Twitter 아이콘" />
