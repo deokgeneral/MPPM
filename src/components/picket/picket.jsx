@@ -10,14 +10,15 @@ function Picket() {
     setUserInput(e.target.value);
   };
 
-  //공유하기 
+              //공유하기 
   const handleTwitterShare = () => {
     // 트위터 공유 로직
         console.log('Twitter 공유');
     };
     const handleFacebookShare = () => {
+      // 페북 공유로직
         console.log('Facebook 공유');
-    }; // 페북 공유로직
+    };
     const handleKakaoShare = () => {
     // 카카오톡 공유 로직
         console.log('Kakao 공유');
@@ -110,7 +111,7 @@ function Picket() {
                 <p>{result}</p>
             </div>
             )}
-                        <div className="sharebtn_content">
+            <div className="sharebtn_content">
             <h3>공유하기</h3>
             <button type="button" onClick={handleTwitterShare} className="share_btn">
             <img src="/assets/icon-twitter.png" alt="Twitter 아이콘" />
