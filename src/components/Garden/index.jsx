@@ -1,5 +1,5 @@
 import React from "react";
-import './Garden.css'
+import './index.css'
 
 function Garden(){
     return(
