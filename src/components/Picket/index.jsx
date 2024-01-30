@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 
-function Picket() {
+export default function Picket() {
 
   const [result, setResult] = useState('');
   const [userInput, setUserInput] = useState('');
@@ -127,4 +127,3 @@ function Picket() {
     </div>
   );
 }
-export default Picket;
