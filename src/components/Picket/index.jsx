@@ -67,6 +67,7 @@ export default function Picket() {
           break;
         }
       };
+
         const handleTwitterShare = () => {
         // 트위터 공유 로직
             console.log('Twitter 공유');
@@ -82,7 +83,6 @@ export default function Picket() {
   return (
     <div className="picket-container">
       <div className="picket">
-
           <h2>나의 MBTI</h2>
           <input
           type="text"
@@ -91,7 +91,6 @@ export default function Picket() {
           placeholder="MBTI를 입력하세요."
           id='input'
           />
-
           <button onClick={handleShowUserResult} id='result'>
           결과 보기
           </button>
@@ -102,7 +101,6 @@ export default function Picket() {
               <p>{result}</p>
           </div>
           )}
-
           <div className="sharebtn_content">
               <h3>공유하기</h3>
               <button type="button" onClick={handleTwitterShare} className="share_btn">
