@@ -1,0 +1,12 @@
+.resultpage{
+    margin-top: 100px;
+    text-align: center;
+}
+#remaching{
+    text-decoration-line: none;
+    border: 3px solid rgb(161, 116, 116);;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: burlywood;
+    color: white;
+}

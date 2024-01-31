@@ -1,23 +1,19 @@
-import React from 'react';
 import Header from './components/Header';
-import Balloon from './components/Balloon';
-import Dog from './components/Dog';
-import Picket from './components/Picket';
-import Garden from './components/Garden';
+import UserInputFormPage from './pages/userInputFromPage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import UserInputResultPage from './pages/userInputResultPage';
 
 
 
 function App() {
   return (
-    <>
-    <div>
-      <Header />
-      <Balloon/>
-      <Dog />
-      <Picket />
-      <Garden />
-    </div>
-    </>
+   <BrowserRouter>
+   <Header />
+   <Routes>
+    <Route path='/' element={<UserInputFormPage/>}/>
+    <Route path='/result' element={<UserInputResultPage/>}/>
+   </Routes>
+   </BrowserRouter>
   );
 }
 

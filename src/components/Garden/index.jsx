@@ -5,12 +5,6 @@ function Garden(){
     return(
         <div className="garden-container">
             <div className="garden">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
             </div>
         </div>
     );
