@@ -15,6 +15,7 @@ const UserInputResultPage = () => {
           <img src={petImage} alt={petName} />
         </div>
         <div className='resultpage-explanation'>
+          <h2>내용:</h2>
           {petContent}
         </div>
       </div>

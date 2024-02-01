@@ -27,15 +27,16 @@ const Picket = () => {
   };
 
   return (
-    <div className="picket-container">
-      <div className="picket">
-        <div className="user-input">
+    <div className='picket-container'>
+      <div className='picket'>
+        <div className='user-input'>
           <h2>나의 MBTI</h2>
           <input
-            type="text"
+            autoComplete='off'
+            type='text'
             value={usermbti}
             onChange={handleInputChange}
-            placeholder="MBTI를 입력하세요."
+            placeholder='MBTI를 입력하세요.'
             id='input'
           />
           <button onClick={handleSubmit} id='result'>
@@ -43,16 +44,16 @@ const Picket = () => {
           </button>
         </div>
 
-        <div className="sharebtn_content">
+        <div className='sharebtn_content'>
           <h3>공유하기</h3>
-          <button type="button" onClick={handleTwitterShare} className="share_btn">
-            <img src="/assets/icon-twitter.png" alt="Twitter 아이콘" />
+          <button type='button' onClick={handleTwitterShare} className='share_btn'>
+            <img src='/assets/icon-twitter.png' alt='Twitter 아이콘' />
           </button>
-          <button type="button" onClick={handleFacebookShare} className="share_btn">
-            <img src="/assets/icon-facebook.png" alt="Facebook 아이콘" />
+          <button type='button' onClick={handleFacebookShare} className='share_btn'>
+            <img src='/assets/icon-facebook.png' alt='Facebook 아이콘' />
           </button>
-          <button type="button" onClick={handleKakaoShare} className="share_btn">
-            <img src="/assets/icon-kakao.png" alt="Kakao 아이콘" />
+          <button type='button' onClick={handleKakaoShare} className='share_btn'>
+            <img src='/assets/icon-kakao.png' alt='Kakao 아이콘' />
           </button>
         </div>
 

@@ -1,5 +1,5 @@
 .resultpage{
-    margin-top: 72px;
+    margin-top: 64px;
     text-align: center;
 }
 .resultpage h3{
@@ -13,10 +13,17 @@
 }
 .resultpage-img{
     margin: 15px;
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    border: 5px solid rgb(161, 116, 116);
+    border-radius: 200px;
 }
 .resultpage-explanation{
-    width: 355px;
+    padding: 15px;
+    border: 5px solid rgb(161, 116, 116);
+    border-radius: 50px;
+    width: 350px;
+    background-color: burlywood;
+    color: white;
+    font-size: 1.2rem;
 }
