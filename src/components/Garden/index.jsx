@@ -3,8 +3,8 @@ import './index.css'
 
 function Garden(){
     return(
-        <div className="garden-container">
-            <div className="garden">
+        <div className='garden-container'>
+            <div className='garden'>
             </div>
         </div>
     );

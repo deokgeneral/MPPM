@@ -15,8 +15,8 @@ function Header() {
                     <li><a href='#'>MBTI 궁합</a></li> 
                     <li><a href='#'>MBTI 롤링페이퍼</a></li>                 
                 </ul>
-                    <div className="hambar">
-                        <input type="checkbox" id="icon" />
+                    <div className='hambar'>
+                        <input type='checkbox' id='icon' />
                         <label htmlFor="icon"> 
                             <span></span>
                             <span></span>

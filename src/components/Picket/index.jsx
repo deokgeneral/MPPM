@@ -23,7 +23,7 @@ const Picket = () => {
   };
 
   const handleSubmit = () => {
-    navigate(`/result/${usermbti}`);
+    navigate(`/result/${usermbti.toUpperCase()}`);
   };
 
   return (
