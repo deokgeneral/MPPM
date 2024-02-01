@@ -1,11 +1,14 @@
 import React from 'react'
 import './index.css';
 import { MdOutlinePets } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 function Header() {
     return(
         <div className='header-content'>
-            <h2 className='header-title'><MdOutlinePets />M<a>bti</a>P<a>erpect</a>P<a>uppy</a>M<a>aching</a></h2>
+            <Link to={'/'} className='header-title'>
+            <MdOutlinePets />M<a>bti</a>P<a>erpect</a>P<a>uppy</a>M<a>aching</a>
+            </Link>
             <div className='header-menu'>
                 <ul id='header-menu_li'>
                     <li><a href='#'>나의 MBTI</a></li>

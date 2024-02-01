@@ -11,7 +11,7 @@ function App() {
    <Header />
    <Routes>
     <Route path='/' element={<UserInputFormPage/>}/>
-    <Route path='/result' element={<UserInputResultPage/>}/>
+    <Route path='/result/:usermbti' element={<UserInputResultPage/>}/>
    </Routes>
    </BrowserRouter>
   );

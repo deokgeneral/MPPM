@@ -1,12 +1,22 @@
 .resultpage{
-    margin-top: 100px;
+    margin-top: 72px;
     text-align: center;
 }
-#remaching{
-    text-decoration-line: none;
-    border: 3px solid rgb(161, 116, 116);;
-    border-radius: 25px;
-    padding: 5px;
-    background-color: burlywood;
-    color: white;
+.resultpage h3{
+    margin: 15px;
+    font-size: 1.55rem;
+}
+.resultpage-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resultpage-img{
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+.resultpage-explanation{
+    width: 355px;
 }

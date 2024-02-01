@@ -1,11 +1,20 @@
-import { Link } from "react-router-dom";
 import './index.css';
+import { Link, useParams } from 'react-router-dom';
 
-export default function UserInputResultPage() {
-    return(
-        <div className="resultpage">
-        <Link to ={'/'} id="remaching">다시 추천받기</Link>
-        <h1>결과 페이지 입니다.</h1>
-        </div>
-    ); 
-  }
+const UserInputResultPage = () => {
+  const { usermbti } = useParams();
+
+  return (
+    <div className="resultpage">
+        <h3>"{usermbti}" 의 추천 반려견은</h3>
+        <div className='resultpage-content'>
+          <div className='resultpage-img'>
+            <h1>이미지</h1>
+          </div>
+          <div className='resultpage-explanation'>내용내용
+          </div>
+      </div>
+    </div>
+  );
+};
+export default UserInputResultPage;

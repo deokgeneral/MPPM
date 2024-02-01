@@ -13,10 +13,12 @@
     font-size: 1.75rem;
     font-weight: 700;
     color: white;
+    text-decoration-line: none;
 }
 .header-title a{
     font-size: 1.25rem;
     margin-right: 10px;
+    text-decoration-line: none;
 }
 .header-menu{
     display: flex;
