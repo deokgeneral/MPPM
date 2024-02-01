@@ -6,6 +6,7 @@ const UserInputResultPage = () => {
   const { usermbti } = useParams();
   const petInfo = mbtiPetData[usermbti];
 
+  //에러창//
   if (!petInfo) {
     return (
       <div className="resulterrorpage">

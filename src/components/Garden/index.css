@@ -1,11 +1,12 @@
 .garden-container {
     position: fixed;
-    bottom: 0;
     width: 100%;
+    top: 680px;
+    bottom: 0;
   }
   
   .garden {
-    height: 8vh;
+    height: 100%;
     background-color: green;
     border-radius: 100px 100px 0 0;
   }

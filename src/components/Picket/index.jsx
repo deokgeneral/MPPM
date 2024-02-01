@@ -5,16 +5,6 @@ import './index.css';
 
 const Picket = () => {
 
-  const handleTwitterShare = () => {
-    console.log('Twitter 공유');
-  };
-  const handleFacebookShare = () => {
-    console.log('Facebook 공유');
-  };
-  const handleKakaoShare = () => {
-    console.log('Kakao 공유');
-  };
-
   const [usermbti, setUsermbti] = useState('');
   const navigate = useNavigate();
 
@@ -25,6 +15,17 @@ const Picket = () => {
   const handleSubmit = () => {
     navigate(`/result/${usermbti.toUpperCase()}`);
   };
+
+  const handleTwitterShare = () => {
+    console.log('Twitter 공유');
+  };
+  const handleFacebookShare = () => {
+    console.log('Facebook 공유');
+  };
+  const handleKakaoShare = () => {
+    console.log('Kakao 공유');
+  };
+
 
   return (
     <div className='picket-container'>

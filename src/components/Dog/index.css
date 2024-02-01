@@ -1,7 +1,7 @@
 .dog-container{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 .dog-head{
     width: 200px;
@@ -106,7 +106,7 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    top: 589px;
+    top: 616px;
 }
 .foot1,
 .foot2{
