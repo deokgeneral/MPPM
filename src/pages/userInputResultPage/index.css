@@ -27,3 +27,21 @@
     color: white;
     font-size: 1.2rem;
 }
+.resulterrorpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+}
+.linktoHome{
+    display: flex;
+    text-decoration-line: none;
+    justify-content: flex-end;
+    color: blue;
+}
+.linktoHome:hover{
+    color: rgb(191, 24, 191);
+    cursor: pointer;
+}

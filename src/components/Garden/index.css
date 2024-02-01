@@ -1,11 +1,11 @@
-.garden-container{
-    display: flex;
-    justify-content: center;
-}
-.garden{
+.garden-container {
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    margin-top: 48px;
-    height: 70px;
+  }
+  
+  .garden {
+    height: 8vh;
     background-color: green;
     border-radius: 100px 100px 0 0;
-}
+  }

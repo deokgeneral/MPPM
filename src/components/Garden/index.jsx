@@ -1,7 +1,7 @@
 import React from "react";
 import './index.css'
 
-function Garden(){
+export default function Garden(){
     return(
         <div className='garden-container'>
             <div className='garden'>
@@ -9,4 +9,3 @@ function Garden(){
         </div>
     );
 }
-export default Garden
