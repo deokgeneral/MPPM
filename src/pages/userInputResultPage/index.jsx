@@ -1,10 +1,31 @@
+import React, { useState, useEffect } from 'react';
 import { Form, Link, useParams } from 'react-router-dom';
 import './index.css';
 import mbtiPetData from '../../mbtipetsdata.json'
+import Loading from '../../loding';
 
 const UserInputResultPage = () => {
   const { usermbti } = useParams();
-  const petInfo = mbtiPetData[usermbti];
+
+  const [loading, setLoading] = useState(true);
+  const [petInfo, setPetInfo] = useState(null);
+
+  useEffect(() => {
+    // Simulating an asynchronous operation, e.g., fetching data
+    const fetchData = async () => {
+      // Replace the setTimeout with your actual data fetching logic
+      setTimeout(() => {
+        const fetchedPetInfo = mbtiPetData[usermbti];
+        setPetInfo(fetchedPetInfo);
+        setLoading(false);
+      }, 1500); // Adjust the time as needed
+    };
+    fetchData();
+  }, [usermbti]);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   //에러창//
   if (!petInfo) {
