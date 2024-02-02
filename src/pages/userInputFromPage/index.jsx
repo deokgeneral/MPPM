@@ -6,14 +6,10 @@ import Garden from "../../components/Garden";
 export default function UserInputFormPage() {
     return(
   <>
-  <div className='main-content'>
   <Balloon />
   <Dog />
   <Picket />
-  </div>
-  <footer>
   <Garden />
-  </footer>
   </>
     );
   }

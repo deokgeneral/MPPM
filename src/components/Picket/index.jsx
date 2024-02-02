@@ -11,7 +11,6 @@ const Picket = () => {
   const handleInputChange = (e) => {
     setUsermbti(e.target.value);
   };
-
   const handleSubmit = () => {
     navigate(`/result/${usermbti.toUpperCase()}`);
   };
@@ -38,14 +37,13 @@ const Picket = () => {
             value={usermbti}
             onChange={handleInputChange}
             placeholder='MBTI를 입력하세요.'
-            id='input'
+            id='textbox'
           />
-          <button onClick={handleSubmit} id='result'>
+          <button onClick={handleSubmit} id='resultbtn'>
             결과 보기
           </button>
         </div>
-
-        <div className='sharebtn_content'>
+          <div className='sharebtn_content'>
           <h3>공유하기</h3>
           <button type='button' onClick={handleTwitterShare} className='share_btn'>
             <img src='/assets/icon-twitter.png' alt='Twitter 아이콘' />
@@ -56,8 +54,7 @@ const Picket = () => {
           <button type='button' onClick={handleKakaoShare} className='share_btn'>
             <img src='/assets/icon-kakao.png' alt='Kakao 아이콘' />
           </button>
-        </div>
-
+          </div>
       </div>
     </div>
   );

@@ -14,41 +14,39 @@
 .picket::after{
     position: relative;
     left: 160px;
-    content: '';
     display: block;
+    content: ' ';
     width: 40px;
-    height: 75px;
-    border-top: none;
+    height: 70px;
     background-color: rgb(80, 48, 48);
 }
-#input{
+.user-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#textbox{
     margin: 5px;
-    width: 165px;
     height: 40px;
     text-align: center;
-    border-radius: 20px;
-    border: 2px solid;
+    border-radius: 10px;
     font-size: 1.05rem;
-    color: rgb(137, 46, 46);
-    border: 4px solid rgb(137, 46, 46);
-    background-color: white;
+    border: 5px solid rgb(137, 46, 46)
 }
-#result{
-    margin: 15px;
-    width: 150px;
-    height: 32px;
-    border: 2px solid;
-    border-radius: 20px;
-    font-size: 1.25rem;
+#resultbtn{
+    width : 186.5px;
+    height: 45px;
+    margin: 8px;
+    border-radius: 10px;
+    font-size: 1.05rem;
     font-weight: 700;
     text-align: center;
     color: rgb(137, 46, 46);
-    border: 4px solid rgb(137, 46, 46);
+    border: 5px solid rgb(137, 46, 46);
     background-color: white;
 }
-#result:hover{
-    transform: scale(1.15);
-    transition: all 0.75s;
+#resultbtn:hover{
+    transform: scale(1.1);
 }
 .share_btn{
     margin: 10px;
