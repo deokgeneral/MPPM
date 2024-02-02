@@ -81,7 +81,7 @@ input[id="icon"]:checked + label span:nth-child(3) {
 }
 #icon:checked+ label+ .hambar-menu {
     height: 167px;
-    border: 5px solid brown;
+    border: 5px solid rgb(161, 116, 116);
 }
 .hambar-menu{
     color: white;

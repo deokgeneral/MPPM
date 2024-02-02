@@ -18,7 +18,7 @@ const UserInputResultPage = () => {
         const fetchedPetInfo = mbtiPetData[usermbti];
         setPetInfo(fetchedPetInfo);
         setLoading(false);
-      }, 1500); // Adjust the time as needed
+      }, 2400); // Adjust the time as needed
     };
     fetchData();
   }, [usermbti]);
@@ -52,7 +52,11 @@ const UserInputResultPage = () => {
           <img src={petImage} alt={petName} />
         </div>
         <div className='resultpage-explanation'>
-          <h2>내용:</h2>
+          <h3 style={{
+            color:'rgb(161, 116, 116)',
+            marginBottom:'10px'
+          }}>"{petName}"의 특징:
+          </h3>
           {petContent}
         </div>
       </div>

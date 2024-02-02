@@ -1,9 +1,10 @@
 .resultpage{
-    margin-top: 64px;
+    margin-top: 72px;
     text-align: center;
 }
 .resultpage h3{
-    font-size: 1.55rem;
+    font-size: 1.25rem;
+    color: rgb(161, 116, 116);
 }
 .resultpage-content{
     display: flex;
@@ -11,7 +12,7 @@
     align-items: center;
 }
 .resultpage-img{
-    margin: 20px;
+    margin: 10px;
     width: 300px;
     height: 300px;
     border: 10px solid rgb(161, 116, 116);
@@ -42,8 +43,9 @@
 .linktoHome{
     display: flex;
     text-decoration-line: none;
-    justify-content: flex-end;
     color: blue;
+    justify-content: center;
+    margin: 10px;
 }
 .linktoHome:hover{
     color: rgb(191, 24, 191);
