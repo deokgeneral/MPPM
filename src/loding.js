@@ -38,13 +38,13 @@ const Loding = () => {
           color:'burlywood'
         }}
       >
-        <div style={{ marginRight: '10px', animation: 'loding-ani 2.4s ease-out forwards' }}>
+        <div style={{ marginRight: '10px', animation: 'loding-ani 1.8s ease-out forwards' }}>
           <MdOutlinePets />
         </div>
-        <div style={{ marginRight: '10px', animation: 'loding-ani 2.4s ease-out 0.8s forwards' }}>
+        <div style={{ marginRight: '10px', animation: 'loding-ani 1.8s ease-out 0.6s forwards' }}>
           <MdOutlinePets />
         </div>
-        <div style={{ animation: 'loding-ani 2.4s ease-out 1.6s forwards' }}>
+        <div style={{ animation: 'loding-ani 1.8s ease-out 1.2s forwards' }}>
           <MdOutlinePets />
         </div>
       </div>

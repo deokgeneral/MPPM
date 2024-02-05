@@ -18,7 +18,7 @@ const UserInputResultPage = () => {
         const fetchedPetInfo = mbtiPetData[usermbti];
         setPetInfo(fetchedPetInfo);
         setLoading(false);
-      }, 2400); // Adjust the time as needed
+      }, 1800); // Adjust the time as needed
     };
     fetchData();
   }, [usermbti]);
@@ -30,10 +30,10 @@ const UserInputResultPage = () => {
   //에러창//
   if (!petInfo) {
     return (
-      <div className="resulterrorpage">
+      <div className="errorpage">
         <div>
-        <h1>Error: 정확하지 않은 MBTI 입니다!!! </h1>
-        <h3>The specified MBTI type "{usermbti}" is not valid or not found in the data.</h3>
+        <h1>정확하지 않은 MBTI 이다. 멍!!! </h1>
+        <h3>Error: 올바르진 않은 타입의 MBTI "{usermbti}" .</h3>
         <Link to={'/'} className='linktoHome'>돌아가기</Link>
         </div>
       </div>

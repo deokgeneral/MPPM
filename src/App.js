@@ -5,16 +5,15 @@ import UserInputResultPage from './pages/userInputResultPage';
 
 
 
-function App() {
+export default function App() {
   return (
    <BrowserRouter>
    <Header />
    <Routes>
     <Route path='/' element={<UserInputFormPage/>}/>
+    <Route path='/result' element={<UserInputFormPage/>}/>
     <Route path='/result/:usermbti' element={<UserInputResultPage/>}/>
    </Routes>
    </BrowserRouter>
   );
 }
-
-export default App;
