@@ -11,9 +11,9 @@ function Header() {
             </Link>
             <div className='header-menu'>
                 <ul id='header-menu_li'>
-                    <li><a href='#'>나의 MBTI</a></li>
-                    <li><a href='#'>MBTI 궁합</a></li> 
-                    <li><a href='#'>MBTI 롤링페이퍼</a></li>                 
+                    <li><a href='https://www.16personalities.com/ko'>나의 MBTI</a></li>
+                    <li><a href='https://pushoong.com/MBTI/relationship/'>MBTI 궁합</a></li> 
+                    <li><a href='https://zombiembti.net/test/rollingpaper2/'>MBTI 롤링페이퍼</a></li>                 
                 </ul>
                     <div className='hambar'>
                         <input type='checkbox' id='icon' />
@@ -25,9 +25,9 @@ function Header() {
                     <div className='hambar-menu'>
                         <h2>MENU</h2>
                         <ul id='hambar-menu_li'>
-                        <li><a href='#'>나의 MBTI</a></li>
-                        <li><a href='#'>MBTI 궁합</a></li>
-                        <li><a href='#'>MBTI 롤링페이퍼</a></li>
+                        <li><a href='https://www.16personalities.com/ko'>나의 MBTI</a></li>
+                        <li><a href='https://pushoong.com/MBTI/relationship/'>MBTI 궁합</a></li> 
+                        <li><a href='https://zombiembti.net/test/rollingpaper2/'>MBTI 롤링페이퍼</a></li>                 
                         </ul>
                     </div>
                 </div>
