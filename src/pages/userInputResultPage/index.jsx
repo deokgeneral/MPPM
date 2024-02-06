@@ -55,7 +55,7 @@ const UserInputResultPage = () => {
           <h3 style={{
             color:'rgb(161, 116, 116)',
             marginBottom:'10px'
-          }}>"{petName}"의 특징:
+          }}>"{petName}" 의 설명 :
           </h3>
           {petContent}
         </div>
