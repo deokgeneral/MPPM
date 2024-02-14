@@ -7,6 +7,14 @@ import UserInputResultPage from './pages/userInputResultPage';
 
 export default function App() {
   return (
+    <div style={{
+      backgroundImage: `url('/assets/초원.png')`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      width: '100%',
+      height: '100vh',
+    }}>
    <BrowserRouter>
    <Header />
    <Routes>
@@ -15,5 +23,6 @@ export default function App() {
     <Route path='/result/:usermbti' element={<UserInputResultPage/>}/>
    </Routes>
    </BrowserRouter>
+   </div>
   );
 }

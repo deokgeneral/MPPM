@@ -11,14 +11,12 @@ const UserInputResultPage = () => {
   const [petInfo, setPetInfo] = useState(null);
 
   useEffect(() => {
-    // Simulating an asynchronous operation, e.g., fetching data
     const fetchData = async () => {
-      // Replace the setTimeout with your actual data fetching logic
       setTimeout(() => {
         const fetchedPetInfo = mbtiPetData[usermbti];
         setPetInfo(fetchedPetInfo);
         setLoading(false);
-      }, 1800); // Adjust the time as needed
+      }, 1800); 
     };
     fetchData();
   }, [usermbti]);
