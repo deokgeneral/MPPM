@@ -8,12 +8,14 @@ import UserInputResultPage from './pages/userInputResultPage';
 export default function App() {
   return (
     <div style={{
+      position: 'relative',
       backgroundImage: `url('/assets/초원.png')`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
+      overflow: 'hidden',
       width: '100%',
       height: '100vh',
+      zIndex: '0'
     }}>
    <BrowserRouter>
    <Header />
