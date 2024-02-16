@@ -4,19 +4,19 @@
 }
 .Balloon{
     text-align: center;
-    width: 180px;
+    width: 270px;
     height: 100px;
     margin-top: 72px;
     border-radius: 50px;
     padding: 15px;
-    background-color: rgb(220, 220, 220);
+    background-color: white;
 }
 .Balloon::after{
     content: '';
     position: relative; 
-    top: 50px; 
+    top: 50px;
     border-left: 20px solid transparent; 
     border-right: 20px solid transparent;
-    border-top: 30px solid rgb(220, 220, 220);
+    border-top: 30px solid white;
     z-index: -1;
 }
