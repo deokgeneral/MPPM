@@ -30,7 +30,7 @@ const Picket = () => {
     <div className='picket-container'>
       <div className='picket'>
         <div className='user-input'>
-          <h2>나의 MBTI</h2>
+          <h2 className='picket_title'>나의 MBTI</h2>
           <input
             autoComplete='off'
             type='text'

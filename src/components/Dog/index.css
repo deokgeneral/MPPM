@@ -1,3 +1,5 @@
+.dog-contents{
+}
 .dog-container{
     display: flex;
     justify-content: center;
@@ -109,19 +111,5 @@
     }
     100% {
         height: 11px; ;
-    }
-  }
-  @keyframes DogAnimation2{
-    .0% {
-        width: 40px;
-        height: 26px; 
-    }
-    50% {
-        width: 40px;
-        height: 35px; 
-    }
-    100% {
-        width: 40px;
-        height: 26px; ;
     }
   }

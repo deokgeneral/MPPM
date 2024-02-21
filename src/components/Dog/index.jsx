@@ -3,7 +3,7 @@ import './index.css';
 
 function Dog(){
     return(
-        <>
+        <div className='dog-contents'>
         <div className='dog-container'>
             <div className='ear' id='ear1'></div>
             <div className='dog-head'>
@@ -35,7 +35,7 @@ function Dog(){
                 </div>
             </div>
         </div>
-        </>
+        </div>
     );
 }
 export default Dog
