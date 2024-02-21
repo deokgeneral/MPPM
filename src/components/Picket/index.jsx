@@ -37,7 +37,7 @@ const Picket = () => {
             value={usermbti}
             onChange={handleInputChange}
             placeholder='MBTI를 입력하세요.'
-            id='textbox'
+            className='textbox'
           />
           <button onClick={handleSubmit} id='resultbtn'>
             결과 보기
