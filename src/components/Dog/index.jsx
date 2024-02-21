@@ -3,7 +3,7 @@ import './index.css';
 
 function Dog(){
     return(
-        <div className='dog-contents'>
+        <div>
         <div className='dog-container'>
             <div className='ear' id='ear1'></div>
             <div className='dog-head'>

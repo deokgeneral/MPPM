@@ -1,5 +1,4 @@
 import React from 'react';
-import Spinner from './spinner.gif';
 import { MdOutlinePets } from "react-icons/md";
 
 const Loding = () => {
@@ -14,7 +13,7 @@ const Loding = () => {
       }}
     >
       <img
-        src={Spinner}
+        src="/assets/spinner.png"
         alt="Loading"
         style={{
         wiDth: '200px', 
