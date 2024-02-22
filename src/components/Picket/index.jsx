@@ -30,7 +30,7 @@ const Picket = () => {
     <div className='picket-container'>
       <div className='picket'>
         <div className='user-input'>
-          <h2 className='picket_title'>나의 MBTI</h2>
+          <h2 className='picket_title'>무엇을 쓸까요</h2>
           <input
             autoComplete='off'
             type='text'
@@ -39,9 +39,12 @@ const Picket = () => {
             placeholder='MBTI를 입력하세요.'
             className='textbox'
           />
-          <button onClick={handleSubmit} id='resultbtn'>
-            결과 보기
-          </button>
+          <input
+           onClick={handleSubmit}
+           type='button'
+           value='결과보기'
+           className='resultbtn' 
+           />
         </div>
           <div className='sharebtn_content'>
           <h3>공유하기</h3>

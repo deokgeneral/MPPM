@@ -8,9 +8,12 @@
     width: 500px;
     height: 250px;
     border-radius: 20px;
-    border: 5px solid #7e2300; 
+    border: 5px solid rgb(97, 23, 23);
     background-color: #9c4700;
     color: white;
+}
+.picket_title{
+    margin-top: 10px;
 }
 .user-input{
     display: flex;
@@ -19,29 +22,32 @@
 }
 .textbox{
     width: 200px;
-    margin: 15px;
-    height: 40px;
+    margin: 10px;
+    height: 35px;
     text-align: center;
     border-radius: 10px;
     font-size: 1.05rem;
-    border: 5px solid rgb(137, 46, 46)
+    border: 5px solid rgb(97, 23, 23);
 }
-#resultbtn{
-    width : 120px;
-    height: 45px;
+.resultbtn{
+    width : 210px;
+    height: 40px;
     border-radius: 10px;
     font-size: 1.05rem;
     font-weight: 700;
     text-align: center;
-    color: rgb(137, 46, 46);
-    border: 5px solid rgb(137, 46, 46);
-    background-color: white;
+    color: white;
+    background-color: rgb(97, 23, 23);
+    border: none;
 }
-#resultbtn:hover{
+.resultbtn:hover{
     transform: scale(1.1);
 }
+.sharebtn_content{
+    margin-top: 15px;
+}
 .share_btn{
-    margin: 15px;
+    margin: 10px;
     background-color: transparent;
     border: none;
 }

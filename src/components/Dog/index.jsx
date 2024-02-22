@@ -3,38 +3,32 @@ import './index.css';
 
 function Dog(){
     return(
-        <div>
-        <div className='dog-container'>
-            <div className='ear' id='ear1'></div>
-            <div className='dog-head'>
+        <div className='dog_contents'>
+            <div className='dog_head'>
                 <div className='eyes'>
-                    <div className='eye'></div>
-                    <div className='eye'></div>
-                </div>
-                <div className='nose'>
-                    <div></div>
-                    <div></div>
-                    <div className='mouth'></div>
-                </div>
-                <div className='arms'>
-                <div className='arm' id='arm1'>
                     <div></div>
                     <div></div>
                 </div>
-                <div className='arm' id='arm2'>
+                <div className='dog_nose'>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div className='dog_ears'>
                     <div></div>
                     <div></div>
                 </div>
-                </div>
-            </div>    
-            <div className='ear' id='ear2'></div>
-            <div className='foots'>
-                <div className='foot1'>
-                </div>
-                <div className='foot2'>
+                <div className='dog_arms'>
+                    <div className='dog_arm1'>
+                       <span></span>
+                       <span></span>
+                    </div>
+                    <div className='dog_arm2'>
+                       <span></span>
+                       <span></span>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     );
 }
