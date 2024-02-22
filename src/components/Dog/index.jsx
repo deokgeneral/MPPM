@@ -14,10 +14,6 @@ function Dog(){
                     <div></div>
                     <div></div>
                 </div>
-                <div className='dog_ears'>
-                    <div></div>
-                    <div></div>
-                </div>
                 <div className='dog_arms'>
                     <div className='dog_arm1'>
                        <span></span>
@@ -29,6 +25,10 @@ function Dog(){
                     </div>
                 </div>
             </div>
+            <div className='dog_ears'>
+                    <div></div>
+                    <div></div>
+                </div>
         </div>
     );
 }
