@@ -10,13 +10,13 @@
     border-bottom: 4px solid rgb(161, 116, 116);
 }
 .header-title{
-    font-size: 1.75rem;
+    font-size: 1.45rem;
     font-weight: 700;
     color: white;
     text-decoration-line: none;
 }
 .header-title a{
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     margin-right: 10px;
     text-decoration-line: none;
 }
