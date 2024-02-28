@@ -15,7 +15,7 @@ export default function App() {
       height: '100vh',
       zIndex: '0'
     }}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
         <Routes>
           <Route path='/' element={<UserInputFormPage />} />
