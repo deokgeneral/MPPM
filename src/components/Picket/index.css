@@ -4,16 +4,13 @@
     text-align: center;
 }
 .picket{
-    margin: 0 15px 0 15px;
     width: 500px;
     height: 250px;
+    margin: 0 15px 0 15px;
     border-radius: 20px;
     border: 5px solid rgb(97, 23, 23);
     background-color: #9c4700;
     color: white;
-}
-.picket_title{
-    margin-top: 10px;
 }
 .user-input{
     display: flex;
@@ -22,16 +19,17 @@
 }
 .textbox{
     width: 200px;
-    margin: 10px;
     height: 35px;
-    text-align: center;
+    margin-top: 35px;
     border-radius: 10px;
+    text-align: center;
     font-size: 1.05rem;
     border: 5px solid rgb(97, 23, 23);
 }
 .resultbtn{
     width : 210px;
-    height: 40px;
+    height: 35px;
+    margin-top: 15px;
     border-radius: 10px;
     font-size: 1.05rem;
     font-weight: 700;
@@ -45,7 +43,7 @@
     cursor: pointer;
 }
 .sharebtn_content{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .share_btn{
     margin: 10px;

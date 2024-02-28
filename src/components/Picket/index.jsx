@@ -14,12 +14,19 @@ const Picket = () => {
   const handleSubmit = () => {
     navigate(`/result/${usermbti.toUpperCase()}`);
   };
+  const handleKeyPress = (Enter) => {
+    if (Enter.key === 'Enter') {
+      handleSubmit();
+    }
+  };
 
   const handleTwitterShare = () => {
-    console.log('Twitter 공유');
+    const shareUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent('트위터로 공유하기')}`;
+    window.open(shareUrl, '_blank');
   };
   const handleFacebookShare = () => {
-    console.log('Facebook 공유');
+    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`;
+    window.open(shareUrl, '_blank');
   };
   const handleKakaoShare = () => {
     console.log('Kakao 공유');
@@ -30,21 +37,20 @@ const Picket = () => {
     <div className='picket-container'>
       <div className='picket'>
         <div className='user-input'>
-          <h2 className='picket_title'>무엇을 쓸까요</h2>
           <input
             autoComplete='off'
             type='text'
             value={usermbti}
             onChange={handleInputChange}
+            onKeyPress={handleKeyPress}
             placeholder='MBTI를 입력하세요.'
             className='textbox'
           />
-          <input
+          <button
            onClick={handleSubmit}
            type='button'
-           value='결과보기'
-           className='resultbtn' 
-           />
+           className='resultbtn'
+           >결과보기</button>
         </div>
           <div className='sharebtn_content'>
           <h3>공유하기</h3>

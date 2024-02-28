@@ -51,7 +51,7 @@ const UserInputResultPage = () => {
         </div>
         <div className='resultpage-explanation'>
           <h3 style={{
-            color:'rgb(161, 116, 116)',
+            color:'white',
             marginBottom:'10px'
           }}>"{petName}" 의 설명 :
           </h3>

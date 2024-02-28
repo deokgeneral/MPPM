@@ -15,7 +15,7 @@
     margin: 10px;
     width: 300px;
     height: 300px;
-    border: 10px solid rgb(161, 116, 116);
+    border: 5px solid rgb(161, 116, 116);
     border-radius: 200px;
     overflow: hidden;
 }
@@ -26,11 +26,11 @@
 .resultpage-explanation{
     padding: 15px;
     border: 5px solid rgb(161, 116, 116);
-    border-radius: 50px;
+    border-radius: 20px;
     width: 350px;
     background-color: burlywood;
-    color: white;
     font-size: 1.2rem;
+    color: white;
 }
 .errorpage{
     width: 100%;
