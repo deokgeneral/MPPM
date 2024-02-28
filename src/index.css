@@ -11,7 +11,7 @@
 body{
     font-family: 'KCCMurukmuruk';
     position: 'relative';
-    background-image: url('../public/assets/초원.png');
+    background-image: url('https://deokgeneral.github.io/My_MPPM_Project/assets/초원.png');
     background-position: center;
     background-size: cover;
     overflow: 'hidden';
