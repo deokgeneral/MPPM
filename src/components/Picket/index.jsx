@@ -58,7 +58,7 @@ const Picket = () => {
             <img src='/assets/icon-twitter.png' alt='Twitter 아이콘' />
           </button>
           <button type='button' onClick={handleFacebookShare} className='share_btn'>
-            <img src='/assets/icon-facebook.png' alt='Facebook 아이콘' />
+            <img src='./public/assets/icon-facebook.png' alt='Facebook 아이콘' />
           </button>
           <button type='button' onClick={handleKakaoShare} className='share_btn'>
             <img src='/assets/icon-kakao.png' alt='Kakao 아이콘' />
