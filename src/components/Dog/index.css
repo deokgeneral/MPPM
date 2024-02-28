@@ -78,7 +78,7 @@
 .dog_arms{
     display: flex;
     position: relative;
-    top: 115px;
+    top: 105px;
     height: 0;
 }
 .dog_arms div:nth-child(1){
