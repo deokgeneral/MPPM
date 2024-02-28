@@ -13,7 +13,7 @@ const Loding = () => {
       }}
     >
       <img
-        src="https://deokgeneral.github.io/My_MPPM_Project/assets/spinner.png"
+        src="https://deokgeneral.github.io/MPPM/assets/spinner.png"
         alt="Loading"
         style={{
         wiDth: '200px', 
