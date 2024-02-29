@@ -42,15 +42,6 @@
     transform: scale(1.1);
     cursor: pointer;
 }
-.sharebtn_content{
-    margin-top: 25px;
-}
-.share_btn{
+.sharebtn-title{
     margin: 10px;
-    background-color: transparent;
-    border: none;
-}
-.share_btn:hover{
-    transform: scale(1.2);
-    cursor: pointer;
 }

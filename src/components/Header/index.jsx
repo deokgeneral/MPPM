@@ -7,7 +7,7 @@ function Header() {
     return(
         <div className='header-content'>
             <Link to={'/'} className='header-title'>
-            <MdOutlinePets />M<a>bti</a>P<a>erpect</a>P<a>uppy</a>M<a>aching</a>
+            <MdOutlinePets />M<span>bti</span>P<span>erpect</span>P<span>uppy</span>M<span>aching</span>
             </Link>
                 <div className='header-menu'>
                     <ul id='header-menu_li'>

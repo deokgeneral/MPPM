@@ -15,7 +15,7 @@
     color: white;
     text-decoration-line: none;
 }
-.header-title a{
+.header-title span{
     font-size: 1.05rem;
     margin-right: 10px;
     text-decoration-line: none;

@@ -1,0 +1,7 @@
+.sharebtn{
+    display: flex;
+    justify-content: center;
+}
+.sharebtn div{
+    margin: 5px;
+}
