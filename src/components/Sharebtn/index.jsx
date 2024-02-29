@@ -25,7 +25,7 @@ function Sharebtn() {
             objectType: 'feed',
             content: {
                 title: 'MPPM',
-                description: 'MBTI를 입력후에 강아지를 추천 받으세요!',
+                description: 'MBTI를 입력 후에 강아지를 추천받으세요!',
                 imageUrl:
                 'https://deokgeneral.github.io/MPPM/assets/메인화면.jpg',
                 link: {
