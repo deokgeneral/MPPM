@@ -123,37 +123,37 @@
     display: flex;
 }
 .dog_foot div{
-    width: 50px;
-    height: 60px;
+    width: 60px;
+    height: 55px;
     background-color: burlywood;
     border: 5px solid;
     border-radius: 0 0 25px 25px;
     border-top: none;
 }
 .dog_foot div:nth-child(1){
-    transform: translateX(-60px)
+    transform: translateX(-50px)
 }
 .dog_foot div:nth-child(2){
-    transform: translateX(60px)
+    transform: translateX(50px)
 }
 .dog_foot1 span,
 .dog_foot2 span{
     content: "";
     position: relative;
-    top: 35px;
+    top: 33px;
     left: 10px;
     border: 2.5px solid black;
 }
 .dog_foot1 span:nth-child(1){
     position: relative;
-    top: 35px;
-    left: 30px;
+    top: 33px;
+    left: 35px;
     border: 2.5px solid;
 }
 .dog_foot2 span:nth-child(1){
     position: relative;
-    top: 35px;
-    left: 30px;
+    top: 33px;
+    left: 35px;
     border: 2.5px solid;
 }
 @keyframes Doganimation {
