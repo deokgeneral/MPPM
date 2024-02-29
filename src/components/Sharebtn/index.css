@@ -15,11 +15,11 @@ input.kakao-btn{
     cursor: pointer;
 }
 .kakao-btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 .facebook-btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 .twitter-btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
