@@ -5,3 +5,10 @@
 .sharebtn div{
     margin: 5px;
 }
+.kakao-btn{
+    width: 38px;
+    height: 38px;
+    border-radius: 25px;
+    border: none;
+    background-image: url('https://deokgeneral.github.io/MPPM/assets/icon-kakako.png');
+}

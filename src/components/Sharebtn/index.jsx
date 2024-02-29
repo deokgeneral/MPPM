@@ -14,9 +14,11 @@ function Sharebtn() {
 
     useEffect(()=>{
         Kakao.cleanup();
-        Kakao.init('329600f20aa3bfbcf74852d108a47ed2');
+        Kakao.init('f077749945a9a7899719b4333992d396');
         console.log(Kakao.isInitialized());
     },[]);
+
+
     const shareKakao = () =>{
 
         Kakao.Share.sendDefault({
