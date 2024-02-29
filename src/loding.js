@@ -22,7 +22,7 @@ const Loding = () => {
       />
         <p
         style={{
-            fontSize:'1.85rem',
+            fontSize:'1.45rem',
             color:'burlywood'
         }}
         >
