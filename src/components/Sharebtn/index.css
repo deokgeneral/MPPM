@@ -5,12 +5,13 @@
 .sharebtn div{
     margin: 10px;
 }
-.kakao-btn{
+input.kakao-btn{
     width: 38px;
     height: 38px;
     border-radius: 25px;
     border: none;
-    background-image: url('https://deokgeneral.github.io/MPPM/assets/kakako.png');
+    background-image: url('https://deokgeneral.github.io/MPPM/assets/kakao.png');
+    background-size: cover;
     cursor: pointer;
 }
 .kakao-btn:hover{

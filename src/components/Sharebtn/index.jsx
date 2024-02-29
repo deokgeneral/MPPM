@@ -55,12 +55,11 @@ function Sharebtn() {
                 </TwitterShareButton>
             </div>
             <div>
-            <button 
+            <input
+            type='button' 
             className='kakao-btn'
             onClick={() => {shareKakao()}}
-            style={{backgroundImage: 'url("https://deokgeneral.github.io/MPPM/assets/kakako.png")'}}
-            > 
-            </button>
+            />
             </div>
         </div>
     );
