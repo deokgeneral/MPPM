@@ -3,12 +3,22 @@
     justify-content: center;
 }
 .sharebtn div{
-    margin: 5px;
+    margin: 10px;
 }
 .kakao-btn{
     width: 38px;
     height: 38px;
     border-radius: 25px;
     border: none;
-    background-image: url('https://deokgeneral.github.io/MPPM/assets/icon-kakako.png');
+    background-image: url('https://deokgeneral.github.io/MPPM/assets/kakako.png');
+    cursor: pointer;
+}
+.kakao-btn:hover{
+    transform: scale(1.2);
+}
+.facebook-btn:hover{
+    transform: scale(1.2);
+}
+.twitter-btn:hover{
+    transform: scale(1.2);
 }

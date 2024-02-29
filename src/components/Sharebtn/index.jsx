@@ -10,7 +10,7 @@ const { Kakao } = window;
 
 function Sharebtn() {
     const currentUrl = window.location.href;
-    const realUrl ="https://deokgeneral.github.io"
+    const realUrl ="https://deokgeneral.github.io/MPPM/"
 
     useEffect(()=>{
         Kakao.cleanup();
@@ -45,12 +45,12 @@ function Sharebtn() {
     return (
         <div className='sharebtn'>
             <div>
-                <FacebookShareButton url={currentUrl.toString()}>
+                <FacebookShareButton url={currentUrl.toString()} className='facebook-btn'>
                     <FacebookIcon size={36} round={true} />
                 </FacebookShareButton>
             </div>
             <div>
-                <TwitterShareButton url={currentUrl.toString()} >
+                <TwitterShareButton url={currentUrl.toString()} className='twitter-btn'>
                     <TwitterIcon size={36} round={true} />
                 </TwitterShareButton>
             </div>
@@ -58,8 +58,9 @@ function Sharebtn() {
             <button 
             className='kakao-btn'
             onClick={() => {shareKakao()}}
+            style={{backgroundImage: 'url("https://deokgeneral.github.io/MPPM/assets/kakako.png")'}}
             > 
-            카카오톡</button>
+            </button>
             </div>
         </div>
     );
