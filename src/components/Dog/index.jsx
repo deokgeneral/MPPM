@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './index.css';
 
 function Dog(){
@@ -29,6 +29,16 @@ function Dog(){
                     <div></div>
                     <div></div>
                 </div>
+            <div className='dog_foot'>
+                <div className='dog_foot1'>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div className='dog_foot2'>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
     );
 }
