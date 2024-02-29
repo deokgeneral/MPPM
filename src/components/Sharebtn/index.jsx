@@ -27,7 +27,7 @@ function Sharebtn() {
                 title: 'MPPM',
                 description: '자신의 MBTI를 입력후에 강아지를 추천 받으세요!',
                 imageUrl:
-                'https://mud-kage.kakao.com/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+                'https://deokgeneral.github.io/MPPM/assets/메인화면.png',
                 link: {
                     mobileWebUrl: realUrl,
                 },
